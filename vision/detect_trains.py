@@ -6,6 +6,7 @@ import numpy
 from sknn.backend import pylearn2
 from sknn import mlp
 
+from dataset import Dataset
 
 train_none = glob.glob('data/*/placed?/*.png') + glob.glob('data/*/none/*.png')
 train_red = glob.glob('data/*/red/*.png')
